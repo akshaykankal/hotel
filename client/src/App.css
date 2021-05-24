@@ -11,10 +11,10 @@ body{
   padding: 0;
  }
  :root {
-  --primary-color: #043a5a;
-  --dark-color: #333;
-  --light-color: #f4f4f4;
-  --danger-color: #dc3545;
+  --primary-color: #0078bd;
+  --dark-color: rgb(255, 113, 113);
+  --light-color: #f8e7ff;
+  --danger-color: #ec4959;
   --success-color: #c0bfbd;
   --xxx-color:#b5b8b7;
 }

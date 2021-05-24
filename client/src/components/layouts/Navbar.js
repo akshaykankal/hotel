@@ -36,8 +36,8 @@ const Navbar = ({ title, icon }) => {
   return (
     <div className='navbar'>
       <div className="logo">
-        <h1><i className={icon} /> {title} </h1>
-        <p>Made with <span>❤</span> by Mu Idrees</p>
+        <h1> Guest Confirm </h1>
+        <p>Made with <span>❤</span> by Students</p>
       </div>
       <ul>
         {isAuthencated ? authLinks : guestLinks}

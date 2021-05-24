@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "\"MERN application by Muhammad Idrees\"",
+  "description": "\"MERN application\"",
   "main": "server.js",
   "engines": {
     "node": "11.6.0"
@@ -15,7 +15,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Muhammad Idrees",
+  "author": "Akshay Kankal",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.6",
